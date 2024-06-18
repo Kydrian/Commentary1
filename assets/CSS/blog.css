@@ -1,0 +1,55 @@
+
+.light {
+    background-color: white;
+    color: black;
+}
+.dark {
+    background-color: rgb(75, 6, 149);
+    color: white;
+  } 
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1, footer a {
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+} 
+
+label{
+    font-size: larger;
+}
